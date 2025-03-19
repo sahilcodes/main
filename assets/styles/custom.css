@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -261,11 +261,14 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  font-size: 1.4rem;
 }
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .about__desc,
@@ -281,12 +284,17 @@ main {
   margin-right: 1em;
 }
 
+.project__subtitle {
+  margin-top: 1rem;
+}
+
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  margin-top: 2.2rem;
 }
 
 .project {
@@ -303,6 +311,12 @@ main {
 
 .project__description {
   margin-top: 1em;
+}
+
+.project__description-list {
+  font-size: 0.8rem;
+  list-style-type: square;
+  text-align: left;
 }
 
 .project__stack {
